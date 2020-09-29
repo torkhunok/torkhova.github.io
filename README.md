@@ -6,3 +6,5 @@
 ![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/model.png)
 
 Ссылки на доп.материалы 
+
+### Диаграмма классов
