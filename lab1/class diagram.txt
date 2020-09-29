@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Seamstress" as P {
+ Sewing machine
+Sew a dress (Fabric, thread, buttons, Order)
+}
+hide circle
+@enduml
