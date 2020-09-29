@@ -3,6 +3,6 @@
 ## Лабораторная работа №1
 Швея шьет платье на заказ из ткани, ниток и пуговиц при помощи швейной машины.
 
-![none](https://github.com/torkhunok/torkhova.github.io/blob/master/model.png)
+![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/model.png)
 
 Ссылки на доп.материалы 
