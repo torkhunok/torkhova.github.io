@@ -7,12 +7,11 @@
 
 ### Диаграмма классов
 
-![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.png)
+![none]()
 
-https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.txt
+
 
 ### Диаграмма прецедентов
 
-![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/use%20case%20diagram.png)
+![none]()
 
-https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/use%20case%20diagram.txt
