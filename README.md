@@ -9,4 +9,4 @@
 
 ### Диаграмма классов
 
-![blah](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.txt)
+![blah](http://www.plantuml.com/plantuml/proxy?idx=0&src=https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.txt)
