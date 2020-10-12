@@ -16,3 +16,4 @@
 ![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/use%20case%20diagram.png)
 
 [Текст диаграммы](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/use%20case%20diagram.txt)
+## Лабораторная работа №2
