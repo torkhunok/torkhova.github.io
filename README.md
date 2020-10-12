@@ -9,7 +9,7 @@
 
 ![none](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.png)
 
-https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.txt
+[link text](https://github.com/torkhunok/torkhova.github.io/blob/master/lab1/class%20diagram.txt)
 
 ### Диаграмма прецедентов
 
