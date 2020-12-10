@@ -1,19 +1,19 @@
 @startuml
 skinparam actor {
-	BackgroundColor White
+	BackgroundColor Gray
 	ArrowColor Black
 	BorderColor Black
 }
 skinparam usecase {
-	BackgroundColor White
+	BackgroundColor Gray
 	ArrowColor Black
 	BorderColor Black
 }
 left to right direction
 actor P0 as "Person"
-actor M0 as "Информационная система"
+actor M0 as "База данных"
 actor P as "Manager"
-actor M as "Система управления заказами"
+actor M as "Управления заказами"
 usecase A as "Manage"
 P -- (A)
 (A) -- M
