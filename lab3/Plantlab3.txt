@@ -1,0 +1,75 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Green
+}
+autonumber
+
+actor "MANAGER" as manager
+boundary "APPLICATION" as app
+control "AJAX" as ajax
+control "HTTPS" as web
+control "NODE JS" as js
+entity "MEMORY" as mem
+control "CONTROLLER" as ctl
+boundary "SCREEN" as screen
+actor "SEAMSTREESS" as seamstress
+
+manager -> app: send
+app -> ajax: ajax post
+activate ajax
+ajax -> web: jQuery.ajax()
+activate web
+
+== order ==
+
+web -> js: order(id)
+activate js
+loop
+   js -> mem: search(dress.id)
+   activate mem
+   mem --> js: object.dress
+   deactivate mem
+end
+js --> web: body.appendChild(dress)
+deactivate js
+
+== assign ==
+
+web -> js: setOrder(dress)
+activate js
+
+js -> mem: seamstress.getlist()
+activate mem
+mem -> js: list<seamstress>
+
+loop
+   js -> mem: find.freeWorker
+   mem -> js: FreeWorkerId
+   js -> ctl: FreeWorker.SetOrder()
+   activate ctl
+   ctl -> screen: order.Show(dress)
+   activate screen
+   screen -> seamstress: Order on screen
+   activate seamstress
+   seamstress --> screen: ok
+   deactivate seamstress
+   screen --> ctl: ok  
+   deactivate screen
+   ctl --> js: ok
+   deactivate ctl
+end
+deactivate mem
+js --> web: ok
+deactivate js
+
+== completion ==
+
+web --> ajax: ok
+deactivate web
+ajax --> app: ok
+deactivate ajax
+
+app --> manager
+@enduml
