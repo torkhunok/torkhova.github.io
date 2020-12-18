@@ -1,0 +1,28 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Grey
+	BorderColor Black
+}
+
+class System as "Система управления заказами"
+
+class Order as "Заказ"
+class Drawing as "Чертёж"
+class Money as "Деньги"
+class Product as "Работа"
+
+class Data as "Взаимодействие с БД"
+
+
+System <|-- Data 
+Data <|-- Order
+Data --|> Product
+Product --|> Order
+Order *-- Drawing
+Order *-- Money
+
+hide members
+hide circle
+hide methods
+@enduml
